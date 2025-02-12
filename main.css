@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 100px;
+    color: blue;
+  }
+  
+  .hero p{
+    font-size: 30px;
+    color: burlywood;
+  } 
+  
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  nav {
+    margin-left: 3rem;
+  }
+  .flex-item{
+    flex: 1;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .image-container {
+    object-fit: contain;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .hero {
+    max-height: 95vh;
+  }
